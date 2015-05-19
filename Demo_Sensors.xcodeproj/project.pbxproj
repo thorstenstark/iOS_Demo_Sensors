@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58707AFA1962DC1000DB0AB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58707AF91962DC1000DB0AB8 /* Foundation.framework */; };
+		58707AFC1962DC1000DB0AB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58707AFB1962DC1000DB0AB8 /* CoreGraphics.framework */; };
+		58707AFE1962DC1000DB0AB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58707AFD1962DC1000DB0AB8 /* UIKit.framework */; };
+		58707B041962DC1000DB0AB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58707B021962DC1000DB0AB8 /* InfoPlist.strings */; };
+		58707B061962DC1000DB0AB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58707B051962DC1000DB0AB8 /* main.m */; };
+		58707B0A1962DC1000DB0AB8 /* UEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58707B091962DC1000DB0AB8 /* UEAppDelegate.m */; };
+		58707B0D1962DC1000DB0AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58707B0B1962DC1000DB0AB8 /* Main.storyboard */; };
+		58707B101962DC1000DB0AB8 /* UELocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58707B0F1962DC1000DB0AB8 /* UELocationViewController.m */; };
+		58707B121962DC1000DB0AB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58707B111962DC1000DB0AB8 /* Images.xcassets */; };
+		58707B191962DC1000DB0AB8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58707B181962DC1000DB0AB8 /* XCTest.framework */; };
+		58707B1A1962DC1000DB0AB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58707AF91962DC1000DB0AB8 /* Foundation.framework */; };
+		58707B1B1962DC1000DB0AB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58707AFD1962DC1000DB0AB8 /* UIKit.framework */; };
+		58707B231962DC1000DB0AB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58707B211962DC1000DB0AB8 /* InfoPlist.strings */; };
+		58707B251962DC1000DB0AB8 /* Demo_SensorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58707B241962DC1000DB0AB8 /* Demo_SensorsTests.m */; };
+		58707B2F1962DC2500DB0AB8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58707B2E1962DC2500DB0AB8 /* CoreLocation.framework */; };
+		5886CCBE19FF85F800AC061B /* UETouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5886CCBD19FF85F800AC061B /* UETouchIDViewController.m */; };
+		58E0B7261964193000F13462 /* UEGyroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E0B7251964193000F13462 /* UEGyroViewController.m */; };
+		58E0B7291964194D00F13462 /* UEMotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E0B7281964194D00F13462 /* UEMotionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58707B1C1962DC1000DB0AB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58707AEE1962DC1000DB0AB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58707AF51962DC1000DB0AB8;
+			remoteInfo = Demo_Sensors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58707AF61962DC1000DB0AB8 /* Demo_Sensors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Sensors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58707AF91962DC1000DB0AB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58707AFB1962DC1000DB0AB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58707AFD1962DC1000DB0AB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58707B011962DC1000DB0AB8 /* Demo_Sensors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo_Sensors-Info.plist"; sourceTree = "<group>"; };
+		58707B031962DC1000DB0AB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58707B051962DC1000DB0AB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58707B071962DC1000DB0AB8 /* Demo_Sensors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo_Sensors-Prefix.pch"; sourceTree = "<group>"; };
+		58707B081962DC1000DB0AB8 /* UEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UEAppDelegate.h; sourceTree = "<group>"; };
+		58707B091962DC1000DB0AB8 /* UEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UEAppDelegate.m; sourceTree = "<group>"; };
+		58707B0C1962DC1000DB0AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58707B0E1962DC1000DB0AB8 /* UELocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UELocationViewController.h; sourceTree = "<group>"; };
+		58707B0F1962DC1000DB0AB8 /* UELocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UELocationViewController.m; sourceTree = "<group>"; };
+		58707B111962DC1000DB0AB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		58707B171962DC1000DB0AB8 /* Demo_SensorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_SensorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58707B181962DC1000DB0AB8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		58707B201962DC1000DB0AB8 /* Demo_SensorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo_SensorsTests-Info.plist"; sourceTree = "<group>"; };
+		58707B221962DC1000DB0AB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58707B241962DC1000DB0AB8 /* Demo_SensorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_SensorsTests.m; sourceTree = "<group>"; };
+		58707B2E1962DC2500DB0AB8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5886CCBC19FF85F800AC061B /* UETouchIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UETouchIDViewController.h; sourceTree = "<group>"; };
+		5886CCBD19FF85F800AC061B /* UETouchIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UETouchIDViewController.m; sourceTree = "<group>"; };
+		58E0B7241964193000F13462 /* UEGyroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UEGyroViewController.h; sourceTree = "<group>"; };
+		58E0B7251964193000F13462 /* UEGyroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UEGyroViewController.m; sourceTree = "<group>"; };
+		58E0B7271964194D00F13462 /* UEMotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UEMotionViewController.h; sourceTree = "<group>"; };
+		58E0B7281964194D00F13462 /* UEMotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UEMotionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58707AF31962DC1000DB0AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58707B2F1962DC2500DB0AB8 /* CoreLocation.framework in Frameworks */,
+				58707AFC1962DC1000DB0AB8 /* CoreGraphics.framework in Frameworks */,
+				58707AFE1962DC1000DB0AB8 /* UIKit.framework in Frameworks */,
+				58707AFA1962DC1000DB0AB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58707B141962DC1000DB0AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58707B191962DC1000DB0AB8 /* XCTest.framework in Frameworks */,
+				58707B1B1962DC1000DB0AB8 /* UIKit.framework in Frameworks */,
+				58707B1A1962DC1000DB0AB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58707AED1962DC1000DB0AB8 = {
+			isa = PBXGroup;
+			children = (
+				58707AFF1962DC1000DB0AB8 /* Demo_Sensors */,
+				58707B1E1962DC1000DB0AB8 /* Demo_SensorsTests */,
+				58707AF81962DC1000DB0AB8 /* Frameworks */,
+				58707AF71962DC1000DB0AB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58707AF71962DC1000DB0AB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58707AF61962DC1000DB0AB8 /* Demo_Sensors.app */,
+				58707B171962DC1000DB0AB8 /* Demo_SensorsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58707AF81962DC1000DB0AB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58707B2E1962DC2500DB0AB8 /* CoreLocation.framework */,
+				58707AF91962DC1000DB0AB8 /* Foundation.framework */,
+				58707AFB1962DC1000DB0AB8 /* CoreGraphics.framework */,
+				58707AFD1962DC1000DB0AB8 /* UIKit.framework */,
+				58707B181962DC1000DB0AB8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58707AFF1962DC1000DB0AB8 /* Demo_Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				58B2F3CD1B0B318D0069901C /* ViewControllers */,
+				58707B081962DC1000DB0AB8 /* UEAppDelegate.h */,
+				58707B091962DC1000DB0AB8 /* UEAppDelegate.m */,
+				58707B0B1962DC1000DB0AB8 /* Main.storyboard */,
+				58707B111962DC1000DB0AB8 /* Images.xcassets */,
+				58707B001962DC1000DB0AB8 /* Supporting Files */,
+			);
+			path = Demo_Sensors;
+			sourceTree = "<group>";
+		};
+		58707B001962DC1000DB0AB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58707B011962DC1000DB0AB8 /* Demo_Sensors-Info.plist */,
+				58707B021962DC1000DB0AB8 /* InfoPlist.strings */,
+				58707B051962DC1000DB0AB8 /* main.m */,
+				58707B071962DC1000DB0AB8 /* Demo_Sensors-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58707B1E1962DC1000DB0AB8 /* Demo_SensorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				58707B241962DC1000DB0AB8 /* Demo_SensorsTests.m */,
+				58707B1F1962DC1000DB0AB8 /* Supporting Files */,
+			);
+			path = Demo_SensorsTests;
+			sourceTree = "<group>";
+		};
+		58707B1F1962DC1000DB0AB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58707B201962DC1000DB0AB8 /* Demo_SensorsTests-Info.plist */,
+				58707B211962DC1000DB0AB8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58B2F3CD1B0B318D0069901C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				58707B0E1962DC1000DB0AB8 /* UELocationViewController.h */,
+				58707B0F1962DC1000DB0AB8 /* UELocationViewController.m */,
+				58E0B7241964193000F13462 /* UEGyroViewController.h */,
+				58E0B7251964193000F13462 /* UEGyroViewController.m */,
+				58E0B7271964194D00F13462 /* UEMotionViewController.h */,
+				58E0B7281964194D00F13462 /* UEMotionViewController.m */,
+				5886CCBC19FF85F800AC061B /* UETouchIDViewController.h */,
+				5886CCBD19FF85F800AC061B /* UETouchIDViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58707AF51962DC1000DB0AB8 /* Demo_Sensors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58707B281962DC1000DB0AB8 /* Build configuration list for PBXNativeTarget "Demo_Sensors" */;
+			buildPhases = (
+				58707AF21962DC1000DB0AB8 /* Sources */,
+				58707AF31962DC1000DB0AB8 /* Frameworks */,
+				58707AF41962DC1000DB0AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo_Sensors;
+			productName = Demo_Sensors;
+			productReference = 58707AF61962DC1000DB0AB8 /* Demo_Sensors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58707B161962DC1000DB0AB8 /* Demo_SensorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58707B2B1962DC1000DB0AB8 /* Build configuration list for PBXNativeTarget "Demo_SensorsTests" */;
+			buildPhases = (
+				58707B131962DC1000DB0AB8 /* Sources */,
+				58707B141962DC1000DB0AB8 /* Frameworks */,
+				58707B151962DC1000DB0AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58707B1D1962DC1000DB0AB8 /* PBXTargetDependency */,
+			);
+			name = Demo_SensorsTests;
+			productName = Demo_SensorsTests;
+			productReference = 58707B171962DC1000DB0AB8 /* Demo_SensorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58707AEE1962DC1000DB0AB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Beuth Hochschule";
+				TargetAttributes = {
+					58707AF51962DC1000DB0AB8 = {
+						DevelopmentTeam = MQMFNSRCGS;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					58707B161962DC1000DB0AB8 = {
+						TestTargetID = 58707AF51962DC1000DB0AB8;
+					};
+				};
+			};
+			buildConfigurationList = 58707AF11962DC1000DB0AB8 /* Build configuration list for PBXProject "Demo_Sensors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58707AED1962DC1000DB0AB8;
+			productRefGroup = 58707AF71962DC1000DB0AB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58707AF51962DC1000DB0AB8 /* Demo_Sensors */,
+				58707B161962DC1000DB0AB8 /* Demo_SensorsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58707AF41962DC1000DB0AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58707B121962DC1000DB0AB8 /* Images.xcassets in Resources */,
+				58707B041962DC1000DB0AB8 /* InfoPlist.strings in Resources */,
+				58707B0D1962DC1000DB0AB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58707B151962DC1000DB0AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58707B231962DC1000DB0AB8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58707AF21962DC1000DB0AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E0B7291964194D00F13462 /* UEMotionViewController.m in Sources */,
+				58707B0A1962DC1000DB0AB8 /* UEAppDelegate.m in Sources */,
+				58707B061962DC1000DB0AB8 /* main.m in Sources */,
+				58707B101962DC1000DB0AB8 /* UELocationViewController.m in Sources */,
+				58E0B7261964193000F13462 /* UEGyroViewController.m in Sources */,
+				5886CCBE19FF85F800AC061B /* UETouchIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58707B131962DC1000DB0AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58707B251962DC1000DB0AB8 /* Demo_SensorsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58707B1D1962DC1000DB0AB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58707AF51962DC1000DB0AB8 /* Demo_Sensors */;
+			targetProxy = 58707B1C1962DC1000DB0AB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58707B021962DC1000DB0AB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58707B031962DC1000DB0AB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58707B0B1962DC1000DB0AB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58707B0C1962DC1000DB0AB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58707B211962DC1000DB0AB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58707B221962DC1000DB0AB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58707B261962DC1000DB0AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58707B271962DC1000DB0AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58707B291962DC1000DB0AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo_Sensors/Demo_Sensors-Prefix.pch";
+				INFOPLIST_FILE = "Demo_Sensors/Demo_Sensors-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58707B2A1962DC1000DB0AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo_Sensors/Demo_Sensors-Prefix.pch";
+				INFOPLIST_FILE = "Demo_Sensors/Demo_Sensors-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		58707B2C1962DC1000DB0AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo_Sensors.app/Demo_Sensors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo_Sensors/Demo_Sensors-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo_SensorsTests/Demo_SensorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		58707B2D1962DC1000DB0AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo_Sensors.app/Demo_Sensors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo_Sensors/Demo_Sensors-Prefix.pch";
+				INFOPLIST_FILE = "Demo_SensorsTests/Demo_SensorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58707AF11962DC1000DB0AB8 /* Build configuration list for PBXProject "Demo_Sensors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58707B261962DC1000DB0AB8 /* Debug */,
+				58707B271962DC1000DB0AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58707B281962DC1000DB0AB8 /* Build configuration list for PBXNativeTarget "Demo_Sensors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58707B291962DC1000DB0AB8 /* Debug */,
+				58707B2A1962DC1000DB0AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58707B2B1962DC1000DB0AB8 /* Build configuration list for PBXNativeTarget "Demo_SensorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58707B2C1962DC1000DB0AB8 /* Debug */,
+				58707B2D1962DC1000DB0AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58707AEE1962DC1000DB0AB8 /* Project object */;
+}
